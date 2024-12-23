@@ -1,4 +1,4 @@
-function grayImg = myRGBToGray(image)
+function grayImg = RGBToGray(image)
     % 提取红色通道
     r = image(:,:,1);
     
