@@ -1,6 +1,6 @@
-function histmatch = myHistogramMatch(img)
+function histmatch = HistogramMatch(img)
 % 将输入图像转换为灰度图像
-img = myRGBToGray(img);
+img = RGBToGray(img);
 
 % 获取图像的高度和宽度
 [h, w] = size(img);
